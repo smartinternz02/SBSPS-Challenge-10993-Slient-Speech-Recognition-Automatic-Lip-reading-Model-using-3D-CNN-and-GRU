@@ -37,17 +37,57 @@ The goal of this project is to develop a Silent Speech Recognition (SSR) system 
 
 
 
-### Model Architecture
+## 4. Model Architecture
+
+The model for this project is a Sequential deep learning model that employs Conv3D layers, Bidirectional LSTM layers, and Dense layers for Silent Speech Recognition. Here's a detailed breakdown of the architecture:
+
+### Convolutional 3D Layers
+
+#### First Conv3D Layer
+- **Filters**: 128
+- **Kernel Size**: 3x3x3
+- **Activation**: ReLU
+- **Padding**: Same
+- **Input Shape**: (75, 46, 140, 1)
+- **Followed by**: MaxPooling3D with a pool size of (1, 2, 2)
+
+#### Second Conv3D Layer
+- **Filters**: 256
+- **Kernel Size**: 3x3x3
+- **Activation**: ReLU
+- **Padding**: Same
+- **Followed by**: MaxPooling3D with a pool size of (1, 2, 2)
+
+#### Third Conv3D Layer
+- **Filters**: 75
+- **Kernel Size**: 3x3x3
+- **Activation**: ReLU
+- **Padding**: Same
+- **Followed by**: MaxPooling3D with a pool size of (1, 2, 2)
+
+### Time-Distributed Flatten Layer
+- Flattens the 3D output to 2D before sending it to the LSTM layers
+
+### Bidirectional LSTM Layers
+
+#### First Bidirectional LSTM Layer
+- **Units**: 128
+- **Kernel Initializer**: Orthogonal
+- **Return Sequences**: True
+- **Dropout**: 0.5
+
+#### Second Bidirectional LSTM Layer
+- **Units**: 128
+- **Kernel Initializer**: Orthogonal
+- **Return Sequences**: True
+- **Dropout**: 0.5
+
+### Dense Layer
+- **Units**: 41
+- **Kernel Initializer**: He Normal
+- **Activation**: Softmax
 
 
-
-#### Convolutional Neural Networks (CNNs)
-
-
-
-- **Layer 1**: 64 filters, kernel size 3x3, stride 1x1
-
-- **Layer 2**: 128 filters, kernel size 3x3, stride 1x1
 
 
 
