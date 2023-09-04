@@ -122,3 +122,10 @@ The goal of this project is to develop a Silent Speech Recognition (SSR) system 
 - Include more complex features such as facial expressions.
 
 - Optimize the model for real-time interaction.
+
+  ## YouTube Demo
+
+
+
+[Watch the YouTube Demo Here]([https://www.youtube.com/link_here](https://www.youtube.com/watch?v=Yx9jtqwB5nQ)https://www.youtube.com/watch?v=Yx9jtqwB5nQ)
+
