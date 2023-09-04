@@ -1,6 +1,12 @@
 # SBSPS-Challenge-10993-Slient-Speech-Recognition-Automatic-Lip-reading-Model-using-3D-CNN-and-GRU
 Slient Speech Recognition : Automatic Lip reading Model using 3D CNN and GRU
 
+## YouTube Demo
+
+
+
+[Watch the YouTube Demo Here](https://www.youtube.com/watch?v=Yx9jtqwB5nQ)
+
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10993-Slient-Speech-Recognition-Automatic-Lip-reading-Model-using-3D-CNN-and-GRU/assets/74406604/76085a62-fe32-4ac2-abdb-3c08bab05b19)
 
 ## Silent Speech Recognition using Deep Learning
@@ -123,9 +129,4 @@ The goal of this project is to develop a Silent Speech Recognition (SSR) system 
 
 - Optimize the model for real-time interaction.
 
-  ## YouTube Demo
-
-
-
-[Watch the YouTube Demo Here]([https://www.youtube.com/link_here](https://www.youtube.com/watch?v=Yx9jtqwB5nQ)https://www.youtube.com/watch?v=Yx9jtqwB5nQ)
 
